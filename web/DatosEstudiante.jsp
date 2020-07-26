@@ -48,7 +48,7 @@
                             
                         
                     %>    
-                    <form name="EditarEstudianteForm" action="RegistroEstudiante.jsp" method="GET">
+                    <form name="EditarEstudianteForm" action="DatosEstudiante.jsp" method="GET">
                     <table border="0" align="center">
                         <thead>
                             <tr>
@@ -93,7 +93,7 @@
                 }else{
 
         %>
-        <form name="AgregarEstudianteForm" action="RegistroEstudiante.jsp" method="GET">
+        <form name="AgregarEstudianteForm" action="DatosEstudiante.jsp" method="GET">
             <table border="0" align="center" class="ecologico" style="margin: auto; display: table">
                 <thead>
                     <tr>
@@ -219,8 +219,8 @@
                         <td><%out.print(rs.getString(4));%></td>
                         <td><%out.print(rs.getString(5));%></td>
                         <td><%out.print(rs.getString(6));%></td>
-                        <td><a href="RegistroEstudiante.jsp?f_accion=E&f_idestudiante=<%out.print(ide);%>"><img src="imagen/BotonEliminar.png" width="15" height="15"></a></td>
-                        <td><a href="RegistroEstudiante.jsp?f_accion=M1&f_idestudiante=<%out.print(ide);%>"><img src="imagen/BotonEditar.png" width="20" height="20"></a></td>
+                        <td><a href="DatosEstudiante.jsp?f_accion=E&f_idestudiante=<%out.print(ide);%>"><img src="imagen/BotonEliminar.png" width="15" height="15"></a></td>
+                        <td><a href="DatosEstudiante.jsp?f_accion=M1&f_idestudiante=<%out.print(ide);%>"><img src="imagen/BotonEditar.png" width="20" height="20"></a></td>
                         
                     </tr>                    
                     <%
