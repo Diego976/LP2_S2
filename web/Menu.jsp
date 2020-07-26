@@ -34,13 +34,13 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="RegistroEstudiante.jsp" >Registro Estudiantes</a></td>
+                        <td><a href="DatosEstudiante.jsp" >Registro Estudiantes</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" >Registro Curso</a></td>
                     </tr>
                     <tr>
                         <td><a href="" >Registro Carrera</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="" >Registro Cursos</a></td>
                     </tr>
                     <tr>
                         <td><a href="" >Registro Matricula</a></td>
