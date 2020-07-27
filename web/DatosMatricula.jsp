@@ -1,7 +1,7 @@
 <%-- 
     Document   : RegistroMatricula
     Created on : 25/07/2020, 08:42:43 PM
-    Author     : w10
+    Author     : Diego Alonso
 --%>
 
 <%@page import="java.sql.*" %>
