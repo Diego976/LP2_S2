@@ -37,7 +37,7 @@
                 s_accion = request.getParameter("f_accion");
                 s_idestudiante = request.getParameter("f_idestudiante");
                 if (s_accion!=null && s_accion.equals("M1")) {
-                    consulta =  "   select nombre, apellidos, dni, codigo, estado  "
+                    consulta =  "   select nombre, apellido, dni, codigo, estado  "
                                 + " from estudiante  "
                                 + " where  "
                                 + " idestudiante =  " + s_idestudiante;
@@ -174,7 +174,7 @@
                             s_estado = request.getParameter("f_estado");
                             
                             consulta =    " insert into "
-                                        + " estudiante (nombre, apellidos, dni, codigo, estado)"
+                                        + " estudiante (nombre, apellido, dni, codigo, estado)"
                                         + " values('"+ s_nombre +"','"+ s_apellidos +"','"+ s_dni +"','"+ s_codigo +"','"+s_estado+"');  ";
                             //out.print(consulta);
                             pst = cn.prepareStatement(consulta);
@@ -188,7 +188,7 @@
                             consulta =  "   update estudiante  "
                                         + " set  "
                                         + " nombre = '"+ s_nombre +"', "
-                                        + " apellidos = '" + s_apellidos + "', "
+                                        + " apellido = '" + s_apellidos + "', "
                                         + " dni = '" + s_dni + "', "
                                         + " codigo = '" + s_codigo + "', "
                                         + " estado = '" + s_estado + "'  "
@@ -201,7 +201,7 @@
                     
                 }
                 
-                consulta= " Select idestudiante, nombre, apellidos, dni, codigo, estado "
+                consulta= " Select idestudiante, nombre, apellido, dni, codigo, estado "
                         + " from estudiante ";
                 //out.print(consulta);
                 pst = cn.prepareStatement(consulta);
