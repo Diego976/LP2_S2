@@ -37,13 +37,13 @@
                         <td><a href="DatosEstudiante.jsp" >Registro Estudiantes</a></td>
                     </tr>
                     <tr>
-                        <td><a href="" >Registro Curso</a></td>
+                        <td><a href="DatosCurso.jsp" >Registro Curso</a></td>
                     </tr>
                     <tr>
-                        <td><a href="" >Registro Carrera</a></td>
+                        <td><a href="DatosCarrera.jsp" >Registro Carrera</a></td>
                     </tr>
                     <tr>
-                        <td><a href="" >Registro Matricula</a></td>
+                        <td><a href="DatosMatricula.jsp" >Registro Matricula</a></td>
                     </tr>
                     <tr>
                         <td><a href="Login.jsp" >Volver al Login</a></td>
