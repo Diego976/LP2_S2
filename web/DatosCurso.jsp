@@ -1,7 +1,7 @@
 <%-- 
     Document   : RegistroCurso
     Created on : 25/07/2020, 08:39:47 PM
-    Author     : HBRT
+    Author     : Hebert Flores
 --%>
 
 <%@page import="java.sql.*" %>
