@@ -58,15 +58,15 @@
                         <tbody>
                             <tr>
                                 <td>Nombre:</td>
-                                <td><input type="text" name="f_nombre" value="<% out.print(rs.getString(2)); %>" maxlength="40" size="35"/></td>                           
+                                <td><input type="text" name="f_nombre" value="<% out.print(rs.getString(1)); %>" maxlength="40" size="35"/></td>                           
                             </tr>
                             <tr>
                                 <td>Codigo:</td>
-                                <td><input type="text" name="f_codigo" value="<% out.print(rs.getString(1)); %>" maxlength="30" size="25" /></td>
+                                <td><input type="text" name="f_codigo" value="<% out.print(rs.getString(2)); %>" maxlength="30" size="25" /></td>
                             </tr>
                             <tr>
                                 <td>Estado: </td>
-                                <td><input type="text" name="f_estado" value="<% out.print(rs.getString(5)); %>" maxlength="1" size="2" /></td>
+                                <td><input type="text" name="f_estado" value="<% out.print(rs.getString(3)); %>" maxlength="1" size="2" /></td>
                             </tr>
                             <tr align="center">
                                 <td colspan="2">
